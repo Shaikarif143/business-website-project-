@@ -1,42 +1,85 @@
-# Creative Studio — Multi-Page HTML/CSS Website
+Creative Studio – Multi-Page HTML & CSS Website
+A clean and professional multi-page business website built using HTML and CSS.
+This project includes responsive layouts, service listing pages, a gallery, and a simple contact form.
 
-This small project contains a 4–5 page website built using only HTML and CSS.
+📌 Project Description
 
-Files created:
-- `index.html` — Home
-- `about.html` — About
-- `services.html` — Services
-- `contact.html` — Contact (simple mailto form)
-- `gallery.html` — Optional Gallery/Portfolio
-- `css/styles.css` — Styles for the site
-- `images/placeholder.svg` — Simple placeholder image used in pages
+This website is designed as a modern business/agency site with multiple pages:
 
-Files created:
- - `index.html` — Home
- - `about.html` — About
- - `services.html` — Services
- - `contact.html` — Contact (simple mailto form)
- - `gallery.html` — Optional Gallery/Portfolio
- - `css/styles.css` — Styles for the site
- - `images/placeholder.svg` — Simple placeholder image used in pages
+index.html – Home
 
-Professional notes
-- Services now include: **AWS Architecture** and **DevOps & CI/CD** (see `services.html`).
-- The design uses the Poppins font and refined color system for a modern, professional look.
+about.html – About the company
 
-How to preview locally
-1. In PowerShell, from the project folder run:
-```powershell
+services.html – Services + added DevOps & AWS services
+
+gallery.html – Portfolio/Gallery
+
+contact.html – Contact form (mailto-based)
+
+The project uses a consistent layout, clean typography, and structured sections for a professional look.
+
+🛠️ Tech Used
+Technology	Purpose
+HTML5	Page structure
+CSS3	Styling & layout
+Flexbox	Alignment & responsiveness
+Google Fonts (Poppins)	Typography
+SVG / PNG Assets	Images
+Git & GitHub	Version control & hosting
+📁 Project Structure
+DEVOPS PROJECT/
+│
+├── css/
+│   └── styles.css
+│
+├── images/
+│   └── placeholder.svg
+│
+├── about.html
+├── contact.html
+├── gallery.html
+├── index.html
+├── services.html
+└── README.md
+
+📸 Screenshots
+
+You can add your screenshots here after capturing them.
+
+Example:
+
+Home Page
+![Home](images/home.png)
+
+About Page
+![Home](images/about.png)
+
+Services Page
+![Services](images/services.png)
+
+Gallery Page
+![Home](images/gallery.png)
+
+Contact Page
+![Home](images/contact.png)
+
+
+▶️ How to Preview the Project Locally
+Windows (PowerShell)
+
+Run:
+
 ii .\index.html
-```
-2. Or open the files in your favorite editor/browser.
 
-Next suggestions:
-- Replace `images/placeholder.svg` with real images in `images/`.
-- Hook contact form to a backend or a service (Netlify Forms, Formspree, etc.).
-- Add small JS for interactivity if desired (burger menu on small screens).
 
-Enjoy! If you want, I can:
-- Add a mobile navigation toggle (pure CSS or simple JS),
-- Improve visual polish (animations, better typography), or
-- Convert this to a template with partials for easier edits.
+Or simply double-click index.html.
+
+VS Code Live Server
+
+If using the Live Server extension:
+
+Right-click index.html
+
+Click "Open with Live Server"
+
+✅ README Completed.
