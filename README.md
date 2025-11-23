@@ -11,9 +11,25 @@ Files created:
 - `css/styles.css` — Styles for the site
 - `images/placeholder.svg` — Simple placeholder image used in pages
 
-How to view locally:
-1. Open the workspace folder in File Explorer.
-2. Double-click `index.html` (or open it in your browser).
+Files created:
+ - `index.html` — Home
+ - `about.html` — About
+ - `services.html` — Services
+ - `contact.html` — Contact (simple mailto form)
+ - `gallery.html` — Optional Gallery/Portfolio
+ - `css/styles.css` — Styles for the site
+ - `images/placeholder.svg` — Simple placeholder image used in pages
+
+Professional notes
+- Services now include: **AWS Architecture** and **DevOps & CI/CD** (see `services.html`).
+- The design uses the Poppins font and refined color system for a modern, professional look.
+
+How to preview locally
+1. In PowerShell, from the project folder run:
+```powershell
+ii .\index.html
+```
+2. Or open the files in your favorite editor/browser.
 
 Next suggestions:
 - Replace `images/placeholder.svg` with real images in `images/`.
